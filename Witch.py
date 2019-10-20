@@ -1,0 +1,2 @@
+class Witch:
+    name = ''

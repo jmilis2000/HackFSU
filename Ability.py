@@ -1,7 +1,7 @@
 class Ability:
 
     # Class variables
-    name = ""
+    name = ''
     range = 0
     cell = 0
     ap = 0
