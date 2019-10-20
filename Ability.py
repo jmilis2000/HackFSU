@@ -14,24 +14,15 @@ class Ability:
         self.ap = ap
         self.dmg = dam
 
-    def Fireball(self):
-        self.name = 'Fireball'
-        self.range = 5
-        self.cell = 4
-        self.ap = 3
-        self.dmg = 1
+class Fireball (Ability):
+    def __init__ (self, name, rang, cell, ap, dmg):
+        Ability(self, 'Fireball', 5, 4, 3, 1)
 
-    def MagicArrow(self):
-        self.name = 'Magic Arrow'
-        self.range = 3
-        self.cell = 1
-        self.ap = 2
-        self.dmg = 2
+class MagicArrow (Ability):
+    def __init__ (self, name, rang, cell, ap, dmg):
+        Ability (self, 'Magic Arrow', 3, 1, 2, 2)
 
-    def MeleeAttack(self):
-        self.name = 'Magic Slap'
-        self.range = 1
-        self.cell = 1
-        self.ap = 1
-        self.dmg = 1
+class MeleeAttack(Ability):
+    def __init__ (self, name, rang, cell, ap, dmg):
+        Ability (self, 'Magic Slap', 1, 1, 1, 1) 
 
