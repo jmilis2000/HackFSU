@@ -34,4 +34,3 @@ class Ability:
         self.cell = 1
         self.ap = 1
         self.dmg = 1
-
