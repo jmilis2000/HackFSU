@@ -1,0 +1,4 @@
+
+MySQL ROOT PASSWORD: H5oBe8zaeqvwPpo3qvSq9EfHUCe97At0CdGXpodHkazunhzcF4swsr_
+User: runcloud
+Password: mlGLlugD3kgGiv8hwbOZJMK8dMPIZSVOKdr6ZOJx6vydnt3wODr0vAj
