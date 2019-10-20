@@ -8,7 +8,7 @@ class Witch (object):
     ability1 = MagicArrow
     ability2 = None
 
-    def _init_(self, name, hp, ap, a1, a2):
+    def __init__(self, name, hp, ap, a1, a2):
         self.name = name
         self.hp = hp
         self.ap = ap
@@ -17,10 +17,10 @@ class Witch (object):
 
 
 class YoungWitch(Witch):
-    def _init_ (self, name, hp, ap, a1, a2):
+    def __init__ (self, name, hp, ap, a1, a2):
         Witch (self, "Young Witch", 10, 4, MagicArrow, MeleeAttack)
 
 
 class OldWitch (Witch):
-    def _init_ (self, name, hp, ap, a1, a2):
+    def __init__ (self, name, hp, ap, a1, a2):
         Witch (self, "Old Witch", 8, 3, MagicArrow, Fireball)
